@@ -1,0 +1,56 @@
+:root {
+    --color-primary_dark:#011C44;
+    --color-brand: #2B7FFF;
+    --color-primary-light: #FFFFFF;
+}
+/* base */
+body{
+    color: var(--color-primary_dark);
+}
+ul{
+    color: var(--color-primary_dark);
+    list-style: none;
+    text-decoration: none;
+}
+.section-title{
+    color: var(--color-primary_dark);
+}
+
+ .accent{
+    color: var(--color-brand);
+ }
+
+/* link */
+.nav-link{
+    color: var(--color-primary_dark);
+}
+
+.nav-link:hover{
+    color: var(--color-brand);
+}
+ /* button */
+.button-primary {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand);
+    border-radius: 32px;
+    cursor: pointer;
+    border: 1px solid var(--color-brand);
+
+}
+
+.button-primary:hover{
+    color: var(--color-primary_dark);
+    background-color: transparent;
+    border: 1px solid var(--color-brand);
+}
+
+/* main section */
+.main-title {
+  font-size: 64px;  
+  color: var(--color-brand);
+  
+}
+/* about-as-section */
+/* advantages-section */
+/* procedures-section */
+/* contact-section */
