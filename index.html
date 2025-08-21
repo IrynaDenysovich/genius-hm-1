@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>beauty zone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -30,16 +33,17 @@
     </header>
     <main>
       <section class="hero-section">
-        <p>Косметологічна клініка</p>
+        <p class="hero-item">Косметологічна клініка</p>
         <h1 lang="en" class="hero-title">beauty zone</h1>
         <button type="submit" class="button-primary">Замовити дзвінок</button>
         <!-- замовити дзвінок -->
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+        <p class="hero-info">Запишись та отримай безкоштовну консультацію нашого косметолога</p>
       </section>
       <section class="about-as-section" id="about-as-section">
-        <h2 class="section-title">
+        <h2 class="section-title titles">
           Перевтілюйтесь в <span lang="en" class="accent">beauty zone!</span>
         </h2>
+        <div class="about-ua-info">
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
@@ -49,6 +53,8 @@
           приємний сервіс. Наші косметологічні процедури та препарати допоможуть
           вам підтримувати свою красу та молодість. З нами краса назавжди!
         </p>
+        </div>
+       
         <img src="./images/Обличчя_до.jpg" alt="Обличчя жінки до процедури" />
         <img
           src="./images/обличчя_після.jpg"
@@ -56,7 +62,7 @@
         />
       </section>
       <section clas="advantages-section" id="advantages-section">
-        <h2 class="section-title">
+        <h2 class="section-title titles">
           Чому люди <span class="accent">обирають нас</span>
         </h2>
         <ul>
@@ -81,7 +87,7 @@
         </ul>
       </section>
       <section class="procedures-section" id="procedures-section">
-        <h2 class="section-title">
+        <h2 class="section-title titles">
           Наші <span class="accent"> процедури</span>
         </h2>
 
@@ -106,7 +112,7 @@
           </li>
         </ul>
       </section>
-      <section class="contact-section" id="contact-section">
+      <section class="contact-section titles" id="contact-section">
         <h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4785345162!2d30.517746312335344!3d50.450813071473796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce50853c3c51%3A0x6703d85b0d10b524!2z0L_QtdGALiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1755263109842!5m2!1sru!2sua"
@@ -156,9 +162,9 @@
         <li><a class="footer-link" href="#" target="_blank">facebook</a></li>
         <li><a class="footer-link" href="#" target="_blank">instagramm</a></li>
       </ul>
-      <ul>
+      <ul class="footer-protect">
         <li><a class="footer-link" href="" target="_blank">Політика конфіденційності</a></li>
-        <li><a href="" target="_blank">&copy; 2022 Дані захищені</a></li>
+        <li><a class="footer-link protect" href="" target="_blank">&copy; 2022 Дані захищені</a></li>
       </ul>
     </footer>
   </body>

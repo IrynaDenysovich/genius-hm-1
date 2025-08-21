@@ -1,73 +1,110 @@
 :root {
-    --color-primary_dark:#011C44;
-    --color-brand: #2B7FFF;
-    --color-primary-light: #FFFFFF;
+  --color-primary_dark: #011c44;
+  --color-brand: #2b7fff;
+  --color-primary-light: #ffffff;
 }
 /* base */
-body{
-    color: var(--color-primary_dark);
-    font-family: 'Play', sans-serif;
+body {
+  color: var(--color-primary_dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
-ul{
-    color: var(--color-primary_dark);
-    list-style: none;
-   
+ul {
+  color: var(--color-primary_dark);
+  list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.section-title {
+  color: var(--color-primary_dark);
+}
+.titles{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+.accent {
+  color: var(--color-brand);
+  
 }
 
-.section-title{
-    color: var(--color-primary_dark);
-}
-
- .accent{
-    color: var(--color-brand);
- }
 
 /* link */
-.nav-link{
-    color: var(--color-primary_dark);
-     text-decoration: none;
-    
+.nav-link {
+  color: var(--color-primary_dark);
+  text-decoration: none;
 }
 
-.nav-link:hover{
-    color: var(--color-brand);
+.nav-link:hover {
+    font-weight: 700;
+  color: var(--color-brand);
 }
- /* button */
+/* button */
 .button-primary {
-    color: var(--color-primary-light);
-    background-color: var(--color-brand);
-    border-radius: 32px;
-    cursor: pointer;
-    border: 1px solid var(--color-brand);
-
+    font-weight: 600;
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+  border-radius: 32px;
+  cursor: pointer;
+  border: 1px solid var(--color-brand);
 }
 
-.button-primary:hover{
-    color: var(--color-primary_dark);
-    background-color: transparent;
-    border: 1px solid var(--color-brand);
+.button-primary:hover {
+  color: var(--color-primary_dark);
+  background-color: transparent;
+  border: 1px solid var(--color-brand);
 }
 
 /* hero section */
 .hero-title {
-    font-family: 'Play', sans-serif;
-  font-size: 64px;  
-  color: var(--color-brand);
+    color: var(--color-brand);
+  font-family: "Play", sans-serif;
+  text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
   
 }
+
+.hero-item{
+
+}
+
+.hero-info{
+    font-size: 12px;
+    line-height: 1.5;
+    
+}
 /* about-as-section */
+.about-as-section .accent{
+    text-transform: capitalize;
+}
+.about-us-text{
+    font-size: 22px;
+    line-height: 1.73;
+}
+.about-us-name{
+    text-transform: capitalize;
+
+}
 /* advantages-section */
+.advantages-item-text{
+    line-height: 1.33;
+    text-align: center;
+}
 /* procedures-section */
 /* contact-section */
 /* footer section */
-.footer-section{
-   
-    background-color: var(--color-primary_dark);
+.footer-section {
+  background-color: var(--color-primary_dark);
 }
-.footer-link{
-    text-decoration: none;
-    color: var(--color-primary-light);
+.footer-link {
+    font-size: 16px;
+  color: var(--color-primary-light);
+
 }
-/* .footer-lin:last-child{
+.protect{
     color: #747272;
-} */
+    font-size: 13px;
+}
