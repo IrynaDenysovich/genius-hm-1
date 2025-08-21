@@ -94,6 +94,10 @@ a{
     text-align: center;
 }
 /* procedures-section */
+.procedures-item-text{
+    font-size: 22px;
+    line-height: 1.18;
+}
 /* contact-section */
 /* footer section */
 .footer-section {
