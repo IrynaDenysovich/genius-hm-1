@@ -6,11 +6,22 @@
   --color-primary-light: #ffffff;
 }
 /* base */
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   color: var(--color-primary_dark);
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
 }
 ul {
   color: var(--color-primary_dark);
@@ -22,16 +33,26 @@ a {
 address {
   font-style: normal;
 }
-
-.section-title {
-  color: var(--color-primary_dark);
+.section {
+  padding-bottom: 96px;
 }
-.titles {
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+/* title */
+.section-title {
+  margin-bottom: 48px;
+  color: var(--color-primary_dark);
   font-size: 64px;
   font-weight: 700;
   text-align: center;
   font-family: "Play", sans-serif;
 }
+/* .titles {
+} */
 .accent {
   color: var(--color-brand);
 }
@@ -48,6 +69,8 @@ address {
 }
 /* button */
 .button-primary {
+  padding: 16px 32px;
+  margin-bottom: 14px;
   font-weight: 600;
   color: var(--color-primary-light);
   background-color: var(--color-brand);
@@ -63,7 +86,12 @@ address {
 }
 
 /* hero section */
+.hero-section {
+  padding-top: 16.5px;
+  padding-bottom: 126.5px;
+}
 .hero-title {
+  margin-bottom: 40px;
   color: var(--color-brand);
   font-family: "Play", sans-serif;
   text-transform: capitalize;
@@ -71,17 +99,29 @@ address {
   font-weight: 700;
 }
 
-/* .hero-item{
-
-} */
+.hero-item {
+  margin-bottom: 16px;
+}
 
 .hero-info {
   font-size: 12px;
   line-height: 1.5;
 }
-/* about-as-section */
-.about-as-section .accent {
+/* about-us-section */
+.about-us-section {
+  padding-bottom: 176px;
+}
+.about-us-section .accent {
   text-transform: capitalize;
+}
+.about-title {
+  margin-bottom: 40px;
+}
+.about-us-text:first-child {
+  margin-bottom: 40px;
+}
+.about-us-text:last-child {
+  margin-bottom: 0px;
 }
 .about-us-text {
   font-size: 22px;
@@ -91,16 +131,34 @@ address {
   text-transform: capitalize;
 }
 /* advantages-section */
+.advantages-list {
+  gap: 56px;
+}
 .advantages-item-text {
   line-height: 1.33;
   text-align: center;
+  color: #000;
 }
 /* procedures-section */
+.procedures-list {
+  gap: 16px;
+}
 .procedures-item-text {
   font-size: 22px;
   line-height: 1.18;
 }
 /* contact-section */
+.contact-section {
+  padding-bottom: 94px;
+}
+.contact-items {
+  gap: 32px;
+}
+.map {
+  width: 100%;
+  max-width: 605px;
+}
+
 /* form */
 .form-wraper {
   background-color: var(--color-primary_dark);
@@ -109,14 +167,17 @@ address {
 }
 .form-title {
   font-size: 22px;
+  font-weight: 600;
 }
 .form-copyright {
+  margin-bottom: 0;
   font-size: 12px;
+  line-height: 1.5;
   color: #747272;
 }
 
 .form-input {
-  font-weight: 600;
+  font-size: 13px;
   color: var(--color-primary-light);
   border-radius: 32px;
   cursor: pointer;
