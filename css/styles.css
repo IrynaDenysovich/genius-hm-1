@@ -84,6 +84,18 @@ address {
   background-color: transparent;
   border: 1px solid var(--color-brand);
 }
+/* header */
+.header-container {
+  display: flex;
+  text-align: center;
+}
+.nav-link-list {
+  display: flex;
+  text-align: center;
+}
+.social-list {
+  display: flex;
+}
 
 /* hero section */
 .hero-section {
